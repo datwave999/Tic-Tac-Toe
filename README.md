@@ -1,4 +1,4 @@
-# Tic-Tac-Toe 🎮
+# Tic-Tac-Toe
 
 A Python-based command-line Tic-Tac-Toe game supporting both single-player (vs. AI) and two-player modes. Available in two versions: a classic text-only build and an emoji-enhanced build.
 
@@ -34,8 +34,8 @@ A Python-based command-line Tic-Tac-Toe game supporting both single-player (vs. 
 
 **Clone the repository:**
 ```bash
-git clone https://https://github.com/datwave999/Tic-Tac-Toe
-cd your-repo-name
+git clone https://github.com/datwave999/tic-tac-toe.git
+cd tic-tac-toe
 ```
 
 **Run the text version:**
@@ -78,6 +78,7 @@ python tictactoe_emoji.py
 - Console clearing uses `subprocess.run` with `sys.platform` detection, so it works correctly on Windows (`cls`), macOS, and Linux (`clear`) without any manual changes.
 
 ---
+
 
 ## License
 
